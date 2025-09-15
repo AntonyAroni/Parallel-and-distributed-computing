@@ -1,0 +1,46 @@
+# Build directories
+cmake-build-*/
+build/
+out/
+
+# Executables
+*.exe
+*.out
+a.out
+
+# Object files
+*.o
+*.obj
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Ninja build files
+*.ninja
+.ninja_deps
+.ninja_log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Profiling files
+cachegrind.out.*
+callgrind.out.*
+*.prof
+
+# Temporary files
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
